@@ -60,7 +60,7 @@ WHERE "cohort"."name" LIKE 'Emerald';
 
 --MAX: If we had an age column student, we could find the student
 -- with the highest age
-SELECT MAX("student"."age") from "student";
+SELECT MAX("age") from "student";
 
 -- MAX: Find the most recent date
 SELECT MAX("start_date") from "cohort";
